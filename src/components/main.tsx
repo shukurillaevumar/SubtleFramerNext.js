@@ -7,6 +7,8 @@ import UserPhoto from "@/photos/user-photo.avif";
 import Image from "next/image";
 import ProductsBox from "./productsBox";
 import Footer from "@/components/footer";
+import GreenDot from "./greenDot";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -19,18 +21,21 @@ const Main = () => {
           </p>
         </div>
         <Available />
+        <GreenDot />
       </div>
-      <div className="w-full flex justify-between items-center mt-4">
+      <div className="w-full flex justify-between items-center mt-4 flex-row max-sm:flex-col-reverse">
         <div>
-          <p className="text-4xl font-bold text-white dark:text-black">
+          <p className="text-4xl font-bold text-white dark:text-black max-sm:text-center">
             I’m Brian Do
           </p>
-          <p className="text-xl text-systemText font-medium mt-2 dark:text-systemTextWhiteMode">
+          <p className="text-xl text-systemText font-medium mt-2 dark:text-systemTextWhiteMode max-sm:text-lg max-sm:text-center">
             Product designer from Jakarta, ID. <br />
             Currently designing at Rectangle.
           </p>
-          <div className="flex justify-start items-center gap-3 mt-4">
-            <HireMe />
+          <div className="flex justify-start items-center gap-3 mt-4 max-sm:justify-center">
+            <Link href="/hireMe">
+              <HireMe />
+            </Link>
             <CopyEmail />
           </div>
         </div>
