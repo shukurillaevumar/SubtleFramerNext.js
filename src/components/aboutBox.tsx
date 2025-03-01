@@ -7,8 +7,8 @@ import FramerTemplate from "./framerTemplate";
 
 const AboutBox = () => {
   return (
-    <div className="flex justify-center items-center w-full bg-imgBorderColor rounded-lg p-6 mt-8 flex-col dark:bg-projectsBoxWhiteMode">
-      <div className="flex justify-between items-center w-full bg-boxBg p-4 rounded-lg border border-borderColor mt-4 cursor-pointer dark:bg-white dark:border-white">
+    <div className="flex justify-center items-center w-full bg-imgBorderColor rounded-lg p-6 mt-8 flex-col dark:bg-projectsBoxWhiteMode max-sm:p-2">
+      <div className="flex justify-between items-center w-full bg-boxBg p-4 rounded-lg border border-borderColor cursor-pointer dark:bg-white dark:border-white">
         <div className="flex justify-center items-center gap-4">
           <Image
             className="border-2 border-imgBorderColor rounded-full"
