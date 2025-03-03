@@ -6,13 +6,18 @@ import HireMe from "./hireMeBtn";
 import UserPhoto from "@/photos/user-photo.avif";
 import Image from "next/image";
 import ProductsBox from "./productsBox";
-import Footer from "@/components/footer";
 import GreenDot from "./greenDot";
 import Link from "next/link";
+import React from "react";
 
-const Main = () => {
+interface AuthorProps {
+  name: string;
+  description: string;
+}
+
+const Main: React.FC<AuthorProps> = ({ name, description }) => {
   return (
-    <div className="w-full flex justify-between items-center bg-systemColor mt-4 border rounded-lg border-borderColor p-8 dark:bg-white dark:shadow-md dark:border-white flex-col">
+    <div className="w-full flex justify-between items-center flex-col">
       <div className="flex justify-between items-center w-full">
         <div className="flex justify-center items-center gap-2">
           <Dot />
@@ -26,11 +31,10 @@ const Main = () => {
       <div className="w-full flex justify-between items-center mt-4 flex-row max-sm:flex-col-reverse">
         <div>
           <p className="text-4xl font-bold text-white dark:text-black max-sm:text-center">
-            I’m Brian Do
+            {name}
           </p>
           <p className="text-xl text-systemText font-medium mt-2 dark:text-systemTextWhiteMode max-sm:text-lg max-sm:text-center">
-            Product designer from Jakarta, ID. <br />
-            Currently designing at Rectangle.
+            {description}
           </p>
           <div className="flex justify-start items-center gap-3 mt-4 max-sm:justify-center">
             <Link href="/hireMe">
@@ -49,7 +53,6 @@ const Main = () => {
       </div>
       <Box />
       <ProductsBox />
-      <Footer />
     </div>
   );
 };

@@ -1,11 +1,12 @@
 import Main from "@/components/main";
-import Menu from "@/components/menu";
 
 export default function Home() {
   return (
-    <div className="w-1/3 mx-auto max-sm:w-full max-sm:p-2">
-      <Menu />
-      <Main />
+    <div className="w-full max-sm:w-full max-sm:p-2">
+      <Main
+        name="I’m Brian Do"
+        description="Product designer from Jakarta, ID. Currently designing at Rectangle."
+      />
     </div>
   );
 }
