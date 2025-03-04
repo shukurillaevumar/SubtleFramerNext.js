@@ -13,16 +13,17 @@ import React from "react";
 interface AuthorProps {
   name: string;
   description: string;
+  label: string;
 }
 
-const Main: React.FC<AuthorProps> = ({ name, description }) => {
+const Main: React.FC<AuthorProps> = ({ name, description, label }) => {
   return (
     <div className="w-full flex justify-between items-center flex-col">
       <div className="flex justify-between items-center w-full">
         <div className="flex justify-center items-center gap-2">
           <Dot />
           <p className="text-systemText font-semibold text-xl dark:text-systemTextWhiteMode">
-            Product Designer
+            {label}
           </p>
         </div>
         <Available />

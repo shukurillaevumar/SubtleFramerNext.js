@@ -6,6 +6,7 @@ export default function Home() {
       <Main
         name="I’m Brian Do"
         description="Product designer from Jakarta, ID. Currently designing at Rectangle."
+        label="Product Designer"
       />
     </div>
   );
