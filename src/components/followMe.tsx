@@ -4,7 +4,7 @@ const FollowMe = () => {
   return (
     <div className="flex justify-between items-center w-full bg-imgBorderColor p-4 rounded-lg mt-10 dark:bg-projectsBoxWhiteMode">
       <div className="flex justify-center items-center gap-1">
-        <Dot />
+        <Dot color="bg-dotColor" />
         <p className="text-xl font-medium text-systemText dark:text-systemTextWhiteMode max-sm:text-lg">
           Follow Me
         </p>

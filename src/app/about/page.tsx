@@ -60,7 +60,6 @@ export default function About() {
       </p>
 
       <AboutBox />
-      <Footer />
     </div>
   );
 }
