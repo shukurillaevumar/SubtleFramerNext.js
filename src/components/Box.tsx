@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Dot from "./dot";
 import ViewAll from "./viewAll";
-import Morva from "../photos/morva.svg";
 import Rectangle from "../photos/rectangle.svg";
 import Simply from "../photos/simply.svg";
 import Link from "next/link";
+import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
 
 const data = [
   {
-    imgSrc: Morva,
-    title: "Morva Labs",
-    description: "Visual Design, Branding",
+    imgSrc: Dubai,
+    title: "Real Estate in Dubai",
+    description: "Landing page",
   },
   {
     imgSrc: Rectangle,
@@ -45,12 +45,13 @@ const Box = () => {
         >
           <div className="flex justify-center items-center gap-4 max-sm:flex-col max-sm:justify-start max-sm:items-start">
             <Image
-              className="border-8 border-imgBorderColor rounded-full max-sm:w-14 max-sm:h-14"
+              className="border-imgBorderColor rounded-full max-sm:w-14 max-sm:h-14"
               src={item.imgSrc}
               alt="img"
               width={65}
               height={65}
             />
+
             <div>
               <p className="text-xl text-white font-medium dark:text-black">
                 {item.title}
@@ -60,7 +61,12 @@ const Box = () => {
               </p>
             </div>
           </div>
-          <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText max-sm:hidden"></i>
+          <a
+            href="https://real-estate-dubai-next-js.vercel.app/"
+            target="_blank"
+          >
+            <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText max-sm:hidden"></i>
+          </a>
         </div>
       ))}
     </div>
