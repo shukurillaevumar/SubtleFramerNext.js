@@ -45,7 +45,7 @@ const Box = () => {
         >
           <div className="flex justify-center items-center gap-4 max-sm:flex-col max-sm:justify-start max-sm:items-start">
             <Image
-              className="border-imgBorderColor rounded-full max-sm:w-14 max-sm:h-14"
+              className="border-imgBorderColor  "
               src={item.imgSrc}
               alt="img"
               width={65}
@@ -65,7 +65,7 @@ const Box = () => {
             href="https://real-estate-dubai-next-js.vercel.app/"
             target="_blank"
           >
-            <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText max-sm:hidden"></i>
+            <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText"></i>
           </a>
         </div>
       ))}

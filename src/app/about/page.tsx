@@ -15,14 +15,14 @@ export default function About() {
       </div>
       <div className="mt-10">
         <p className="text-4xl font-medium text-white dark:text-black">
-          It's Me Brian
+          It's Me Muhammadumar
         </p>
         <p className="text-xl text-systemText font-medium mt-4 dark:text-systemTextWhiteMode">
-          I'm Brian Do, a product designer with over 5 years of experience,
-          currently residing in Jakarta, Indonesia. I have a deep passion for
-          crafting purposeful interfaces and products. My main goal is to bridge
-          the divide between people and technology, transforming intricate
-          challenges into meaningful and seamless experiences.
+          I'm Muhammadumar, a front-end programmer with over 3 years of
+          experience, currently working as freelancer, Uzbekistan. I have a deep
+          passion for crafting purposeful interfaces and products. My main goal
+          is to bridge the divide between people and technology, transforming
+          intricate challenges into meaningful and seamless experiences.
         </p>
       </div>
       <div className="flex justify-center items-center border-8 rounded-xl border-imgBorderColor mt-10">
@@ -38,11 +38,11 @@ export default function About() {
         More About Me
       </p>
       <p className="text-xl text-systemText font-medium mt-4 dark:text-systemTextWhiteMode">
-        Brian Do holds a bachelor's degree in Graphic Design from a prestigious
-        university in the United States and has a relentless drive for staying
-        up-to-date with the latest technologies and design trends. Actively
-        involved in the design community, Brian regularly participates in
-        diverse design conferences and meetups.
+        Muhammadumar holds a bachelor's degree in Graphic Design from a
+        prestigious university in the United States and has a relentless drive
+        for staying up-to-date with the latest technologies and design trends.
+        Actively involved in the design community, Brian regularly participates
+        in diverse design conferences and meetups.
       </p>
       <p className="text-xl text-systemText font-medium mt-4 dark:text-systemTextWhiteMode">
         When he's not immersed in design work, he finds solace in playing the
