@@ -1,26 +1,29 @@
 import Image from "next/image";
 import Dot from "./dot";
 import ViewAll from "./viewAll";
-import Rectangle from "../photos/rectangle.svg";
 import Simply from "../photos/simply.svg";
 import Link from "next/link";
 import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
+import CarpetUz from "../photos/Carpet-uz/logo.a3e69958234a62197b0a.png";
 
 const data = [
   {
     imgSrc: Dubai,
     title: "Real Estate in Dubai",
     description: "Landing page",
+    link: "https://real-estate-dubai-next-js.vercel.app/",
   },
   {
-    imgSrc: Rectangle,
-    title: "Rectangle",
-    description: "Product Design, Icon design",
+    imgSrc: CarpetUz,
+    title: "Clean-carp",
+    description: "Landing Page",
+    link: "https://carpet-uz.vercel.app/",
   },
   {
     imgSrc: Simply,
     title: "Simply",
     description: "Landing page, Illustration design",
+    link: "https://real-estate-dubai-next-js.vercel.app/",
   },
 ];
 
@@ -48,7 +51,7 @@ const Box = () => {
               className="border-imgBorderColor  "
               src={item.imgSrc}
               alt="img"
-              width={65}
+              width={90}
               height={65}
             />
 
@@ -61,10 +64,7 @@ const Box = () => {
               </p>
             </div>
           </div>
-          <a
-            href="https://real-estate-dubai-next-js.vercel.app/"
-            target="_blank"
-          >
+          <a href={item.link} target="_blank">
             <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText"></i>
           </a>
         </div>
