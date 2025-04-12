@@ -1,9 +1,7 @@
 import Image from "next/image";
-import Simply from "../photos/simply.svg";
-import Glassador from "../photos/glassador.svg";
-import SevenLtd from "../photos/Seven LTD.svg";
 import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
 import CarpetUz from "../photos/Carpet-uz/logo.a3e69958234a62197b0a.png";
+import Zamon from "../photos/Zamon/zamon.svg";
 
 const data = [
   {
@@ -19,22 +17,10 @@ const data = [
     link: "https://carpet-uz.vercel.app/",
   },
   {
-    imgSrc: Simply,
-    title: "Simply",
+    imgSrc: Zamon,
+    title: "Zamon Businness Travel",
     description: "Landing page, Illustration design",
-    link: "https://carpet-uz.vercel.app/",
-  },
-  {
-    imgSrc: Glassador,
-    title: "Glassador",
-    description: "Icon design, Illustration design",
-    link: "https://carpet-uz.vercel.app/",
-  },
-  {
-    imgSrc: SevenLtd,
-    title: "Seven LTD.",
-    description: "Branding, Landing page",
-    link: "https://carpet-uz.vercel.app/",
+    link: "https://zamon-businness-travel.vercel.app/",
   },
 ];
 
@@ -57,10 +43,7 @@ const ProjectsBox = () => {
               </p>
             </div>
           </div>
-          <a
-            href="https://real-estate-dubai-next-js.vercel.app/"
-            target="_blank"
-          >
+          <a href={item.link} target="_blank">
             <i className="fi fi-rr-angle-small-right flex justify-center items-center text-2xl text-systemText"></i>
           </a>
         </div>

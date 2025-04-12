@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Dot from "./dot";
 import ViewAll from "./viewAll";
-import Simply from "../photos/simply.svg";
+
 import Link from "next/link";
 import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
 import CarpetUz from "../photos/Carpet-uz/logo.a3e69958234a62197b0a.png";
+import Zamon from "../photos/Zamon/zamon.svg";
 
 const data = [
   {
@@ -20,10 +21,10 @@ const data = [
     link: "https://carpet-uz.vercel.app/",
   },
   {
-    imgSrc: Simply,
-    title: "Simply",
+    imgSrc: Zamon,
+    title: "Zamon Businness Travel",
     description: "Landing page, Illustration design",
-    link: "https://real-estate-dubai-next-js.vercel.app/",
+    link: "https://zamon-businness-travel.vercel.app/",
   },
 ];
 
