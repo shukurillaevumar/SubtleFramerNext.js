@@ -1,8 +1,7 @@
 import Dot from "@/components/dot";
 import Image from "next/image";
-import UserPhoto from "@/photos/authorPhoto.avif";
+import UserPhoto from "@/photos/authorPhoto.jpg";
 import AboutBox from "@/components/aboutBox";
-import Footer from "@/components/footer";
 
 export default function About() {
   return (
@@ -25,12 +24,13 @@ export default function About() {
           intricate challenges into meaningful and seamless experiences.
         </p>
       </div>
-      <div className="flex justify-center items-center border-8 rounded-xl border-imgBorderColor mt-10">
+      <div className="flex max-sm:w-full w-[500px] mx-auto justify-center items-center border-8 rounded-xl border-imgBorderColor mt-10">
         <Image
           width={0}
           height={0}
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "500px", height: "auto" }}
           src={UserPhoto}
+          className="max-sm:w-full"
           alt="img"
         />
       </div>
