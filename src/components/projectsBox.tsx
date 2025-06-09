@@ -1,14 +1,16 @@
 import Image from "next/image";
-import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
+
 import CarpetUz from "../photos/Carpet-uz/logo.a3e69958234a62197b0a.png";
 import Zamon from "../photos/Zamon/zamon.svg";
+import PSY from "../photos/PSY-med/Logo.png";
+import Suitique from "../photos/Suitique/logo-st.png";
 
 const data = [
   {
-    imgSrc: Dubai,
-    title: "Real Estate in Dubai",
+    imgSrc: PSY,
+    title: "Psychological web education platform",
     description: "Landing page",
-    link: "https://real-estate-dubai-next-js.vercel.app/",
+    link: "https://psy-med.vercel.app/",
   },
   {
     imgSrc: CarpetUz,
@@ -21,6 +23,12 @@ const data = [
     title: "Zamon Businness Travel",
     description: "Landing page, Illustration design",
     link: "https://zamon-businness-travel.vercel.app/",
+  },
+  {
+    imgSrc: Suitique,
+    title: "Suitique",
+    description: "Landing page, Illustration design",
+    link: "https://www.suitique.uz/",
   },
 ];
 

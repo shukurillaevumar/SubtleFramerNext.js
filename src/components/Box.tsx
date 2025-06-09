@@ -3,17 +3,17 @@ import Dot from "./dot";
 import ViewAll from "./viewAll";
 
 import Link from "next/link";
-import Dubai from "../photos/Dubai/Group 3 (1) 1.png";
+import PSY from "../photos/PSY-med/Logo.png";
 import CarpetUz from "../photos/Carpet-uz/logo.a3e69958234a62197b0a.png";
 import Zamon from "../photos/Zamon/zamon.svg";
 import Suitique from "../photos/Suitique/logo-st.png";
 
 const data = [
   {
-    imgSrc: Dubai,
-    title: "Real Estate in Dubai",
+    imgSrc: PSY,
+    title: "Psychological web education platform",
     description: "Landing page",
-    link: "https://real-estate-dubai-next-js.vercel.app/",
+    link: "https://psy-med.vercel.app/",
   },
   {
     imgSrc: CarpetUz,
